@@ -7,7 +7,7 @@ Answer the following questions based on your understanding of Python programming
 
  Questions:
 
-Python Basics:
+1.Python Basics:
 
 Python is a high-level, interpreted programming language known for its simplicity and readability. Some key features include:
 
@@ -21,7 +21,7 @@ Examples of Use Cases:
     Data Science: Libraries like NumPy, Pandas, and Matplotlib for data analysis and visualization.
     Automation: Writing scripts for automation tasks due to its simplicity and cross-platform compatibility.
 
-Installing Python:
+2.Installing Python:
 
 To install Python on your operating system (Windows, macOS, or Linux), follow these steps:
 
@@ -41,7 +41,7 @@ To install Python on your operating system (Windows, macOS, or Linux), follow th
             Windows: myenv\Scripts\activate
             macOS/Linux: source myenv/bin/activate
 
-Python Syntax and Semantics:
+3.Python Syntax and Semantics:
 
 Here's a simple Python program that prints "Hello, World!" to the console:
 
@@ -55,7 +55,7 @@ Explanation:
     print() is a built-in Python function used to output text to the console.
     "Hello, World!" is a string literal enclosed in double quotes.
 
-Data Types and Variables:
+4.Data Types and Variables:
 
 Basic data types in Python include:
 
@@ -85,7 +85,7 @@ print(name)
 print(numbers[0])
 print(person["age"])
 
-Control Structures:
+5.Control Structures:
 
 Conditional Statements:
 
@@ -108,7 +108,7 @@ python
 for i in range(5):
     print(i)
 
-Functions in Python:
+6.Functions in Python:
 
 Functions in Python are blocks of reusable code used to perform a specific task. They are defined using the def keyword.
 
@@ -123,7 +123,7 @@ def add_numbers(a, b):
 result = add_numbers(3, 5)
 print("Result:", result)
 
-Lists and Dictionaries:
+7.Lists and Dictionaries:
 
 Lists are ordered collections, while dictionaries are unordered collections with key-value pairs.
 
@@ -144,7 +144,7 @@ print(person["name"])    # Output: Alice
 numbers.append(6)
 person["email"] = "alice@example.com"
 
-Exception Handling:
+8.Exception Handling:
 
 Exception handling in Python allows you to handle errors gracefully using try, except, and optionally finally.
 
@@ -159,7 +159,7 @@ except ZeroDivisionError:
 finally:
     print("Execution completed.")
 
-Modules and Packages:
+9.Modules and Packages:
 
 Modules are Python files containing functions and variables, while packages are directories of modules. You can import and use modules in your scripts.
 
@@ -174,7 +174,7 @@ num = 25
 sqrt = math.sqrt(num)
 print("Square root of", num, "is", sqrt)
 
-File I/O:
+10.File I/O:
 
 File I/O in Python involves reading from and writing to files.
 
